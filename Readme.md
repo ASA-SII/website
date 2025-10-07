@@ -13,6 +13,7 @@ Table of contents
        1. [SMI 2026](#smi-2026)
        2. [SMI 2025](#smi-2025)
        3. [SMI 2024](#smi-2024)
+       4. [Prior SMI Meetings](#prior-smi-meetings)
    * [AmStat](#amstat)
 <!--te-->
 
@@ -52,6 +53,10 @@ Annual Meetings
 # [SMI 2024](https://medicine.iu.edu/biostatistics/news-events/statistical-methods-in-imaging-conference)
 
     SMI 2024: Indiana University School of Medicine, Indianapolis, IN
+
+# [Prior SMI Meetings](https://www.statsinimaging.org/events_smi/)
+
+    Prior AmStat Statistics in Imaging and Statistical in Medical Imaging (SMI) events (2015-2023) 
 
 AmStat
 ======
