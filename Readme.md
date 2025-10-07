@@ -1,6 +1,6 @@
 # ASA Statistics in Imaging (SI) Section
 
-<a href="https://www.statsinimaging.org/"><img align="right" width="400" src="github.com/ASA-SII/website/blob/main/images/AmStat_SiI_Logo.png?raw=true"></a>
+<a href="https://www.statsinimaging.org/"><img align="right" width="400" src="https://github.com/ASA-SII/website/blob/main/images/AmStat_SiI_Logo.png?raw=true"></a>
 
 Table of contents
 =================
