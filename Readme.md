@@ -42,7 +42,7 @@ Primary Functions
 Annual Meetings
 ===============
 
-# [SMI 2026]()
+# [SMI 2026](/smi-2026.md)
 
     SMI 2026: University of Michigan, Ann Arbor, MI
 
