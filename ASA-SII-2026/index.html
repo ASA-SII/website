@@ -477,6 +477,14 @@
             justify-content: center;
             color: var(--gray);
             font-size: 3rem;
+            overflow: hidden; /* Added for image containment */
+        }
+
+        .member-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* This ensures the image covers the circle nicely */
+            border-radius: 50%;
         }
 
         .member-name {
@@ -1037,4 +1045,5 @@
     </script>
 </body>
 </html>
+
 
