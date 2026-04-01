@@ -928,7 +928,7 @@
                                 <td>
                                     <div class="session-item"><strong>Track A · S18</strong><br>Recent Advances in Complex Modeling of Brain Imaging and Networks<br><small>Organizer: Xi Luo · Chair: Jian Kang</small></div>
                                     <hr>
-                                    <div class="session-item"><strong>Track B · S19</strong><br>Next‑Generation Statistical and Inferential Methods for Neuroimaging and Multimodal Data Integration<br><small>Organizer: Haochang Shou · Chair: Haochang Shou</small></div>
+                                    <div class="session-item"><strong>Track B · S19</strong><br>Next-Generation Statistical and Inferential Methods for Neuroimaging and Multimodal Data Integration<br><small>Organizer: Haochang Shou · Chair: Haochang Shou</small></div>
                                     <hr>
                                     <div class="session-item"><strong>Track C · S20</strong><br>AI for Medical Image Analysis II<br><small>Organizer: Kayvan Najarian · Chair: Shuo Chen</small></div>
                                 </td>
@@ -990,7 +990,28 @@
                                 <strong>Track B · S2</strong><br>
                                 Advances in methods for cancer imaging: From single-cell data to sustainable AI<br>
                                 <small>Organizer: Andrew Whiteman · Chair: Tim Johnson</small>
-                                <p class="talks-tbd"><em>Talk details to be announced</em></p>
+                                <div class="talk-details">
+                                    <div class="talk">
+                                        <strong>Inna Chervoneva</strong> <small>(Thomas Jefferson University)</small><br>
+                                        Spatial index functional protein biomarkers based on single-cell imaging data
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Lubomir Hadjiski</strong> <small>(University of Michigan)</small><br>
+                                        Integrated approach: Large language models, deep learning and radiomics for survival prediction of bladder cancer patients
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Andrew Whiteman</strong> <small>(University of Michigan)</small><br>
+                                        Using computer vision-inspired kernels to predict cancer prognosis from multiplexed images of tumor micro-environments
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Shu (Joy) Jiang</strong> <small>(Washington University in St. Louis)</small><br>
+                                        Sustainable AI in cancer imaging: From research to market
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1047,7 +1068,28 @@
                                 <strong>Track C · S5</strong><br>
                                 Alignment, Calibration, and Robust Inference in Neuroimaging<br>
                                 <small>Organizer: Panpan Zhang · Chair: Panpan Zhang</small>
-                                <p class="talks-tbd"><em>Talk details to be announced</em></p>
+                                <div class="talk-details">
+                                    <div class="talk">
+                                        <strong>Zhengwu Zhang</strong> <small>(University of North Carolina at Chapel Hill)</small><br>
+                                        Alignment of Continuous Brain Connectivity
+                                        <p>Brain networks are typically represented by adjacency matrices, where each node corresponds to a brain region. In traditional brain network analysis, nodes are assumed to be matched across individuals, but the methods used for node matching often overlook the underlying connectivity information. This oversight can result in inaccurate node alignment, leading to inflated edge variability and reduced statistical power in downstream connectivity analyses. To overcome this challenge, we propose a novel framework for registering high resolution continuous connectivity (ConCon), defined as a continuous function on a product manifold space—specifically, the cortical surface—capturing structural connectivity between all pairs of cortical points. Leveraging ConCon, we formulate an optimal diffeomorphism problem to align both connectivity profiles and cortical surfaces simultaneously. We introduce an efficient algorithm to solve this problem and validate our approach using data from the Human Connectome Project (HCP). Results demonstrate that our method substantially improves the accuracy and robustness of connectome-based analyses compared to existing techniques.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Dana Tudorascu</strong> <small>(University of Pittsburgh)</small><br>
+                                        Alzheimer's Disease Biomarkers Harmonization Challenges
+                                        <p>Recent studies have shown that Alzheimer's disease imaging biomarkers remained highly variable even after state-of-the-art harmonization methods application. Furthermore, data harmonization and standardization across different clinical domains including Positron Emission Tomography (PET) imaging and blood biomarkers continue to hinder our ability to accurately estimate differences across different clinical groups. In this study we present different harmonization methods for PET imaging and blood biomarkers outcomes in Alzheimer's Disease and aim to explain the variability across several harmonization methods.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Andrew Chen</strong> <small>(Medical University of South Carolina)</small><br>
+                                        Calibration of MRI-Based Reference Intervals to New Samples
+                                        <p>Reference intervals, defined as intervals containing a new observation with a specified probability relative to reference data, would be clinically useful in assessing brain magnetic resonance imaging (MRI). Brain charts, which are estimates of MRI phenotypes across covariates such as age and sex, can be used to construct reference intervals. However, the reference data used to fit intervals often differs from a new sample in terms of study design, MRI acquisition, and image preprocessing. Application of MRI reference intervals to new samples remains a challenging problem. Here, we propose a new method called Reference interval calibration via conFormal prediction (ReForm) that adjusts reference intervals for a new sample. Our method builds on recent work in conformal prediction, which yields intervals with guaranteed coverage for new observations. Through resampling experiments in Lifespan Brain Chart Consortium cortical thickness data, we compare ReFormed reference intervals to refitting intervals, statistical harmonization methods, and model-based adjustment of intervals. Notably for patient privacy concerns, ReForm does not require sharing of reference data. Yet, our empirical results demonstrate that ReForm controls FPR similarly or better than alternative methods which require sharing reference data. Finally, we provide recommendations for practical applications of ReForm and an R package for calibrating reference intervals using ReForm.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Xinyu Zhang</strong> <small>(Vanderbilt University)</small><br>
+                                        Asymptotic Distribution of Robust Effect Size Index
+                                        <p>The Robust Effect Size Index (RESI) is a recently proposed standardized index to quantify effect magnitude across models, with significant applications in high-dimensional data analysis, including neuroimaging studies. However, its confidence interval (CI) construction has relied on computationally intensive bootstrap procedures. We establish a general theorem for the asymptotic distribution of the RESI using a Taylor expansion that accommodates a broad class of models. Simulations under various linear and logistic settings show that RESI and its CI have smaller bias and more reliable coverage than commonly used effect sizes such as Cohen's d and f, and that combining with robust covariance estimation yields valid inference under model misspecification—a crucial aspect in neuroimaging, where model assumptions often need to account for complex spatial dependencies and heterogeneous variances across regions. Additionally, our approach shows that the asymptotic method significantly reduces computational time, achieving up to a 50-fold speedup over the bootstrap procedure. This is particularly valuable in neuroimaging applications where large-scale datasets and computational efficiency are key challenges. Our first paper, which focused on constructing confidence sets for imaging studies, highlighted the speed limitations of bootstrap-based methods. The current work builds on that foundation, offering a scalable and reliable alternative, thus greatly enhancing the applicability of RESI in high-dimensional studies, including neuroimaging and other complex data types.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1083,8 +1125,8 @@
                                     </div>
                                     <div class="talk">
                                         <strong>Heather Shappell</strong> <small>(Wake Forest University)</small><br>
-                                        A Hidden Semi‑Markov Model Framework for Covariate‑Dependent Sojourn Distributions in Dynamic Brain Network Analysis
-                                        <p>The study of functional brain networks increasingly emphasizes how connectivity patterns evolve over time. While hidden Markov models (HMMs) have become a popular tool for modeling dynamic functional connectivity (FC), their assumption of geometrically distributed sojourn times (consecutive time spent in a state) forces unrealistically frequent state switching. Hidden semi‑Markov models (HSMMs) address this limitation by explicitly modeling the sojourn distribution, enabling more accurate characterization of the duration spent in each network state. I develop an HSMM framework for inferring dynamic brain network states from functional MRI data and estimating subject‑specific state sequences, dwell times, and associated connectivity patterns. Building on this foundation, I introduce an extension in which the sojourn distribution is modeled as a function of covariates. This covariate‑dependent formulation allows state dwell times to vary systematically with demographic, clinical, or behavioral factors, providing a direct mechanism for comparing temporal dynamics across patient populations. I illustrate the utility of this approach using fMRI data from older adults with obesity, demonstrating how covariate effects on sojourn behavior can reveal meaningful differences in network stability and flexibility. This framework opens new avenues for studying how individual characteristics shape the temporal organization of functional brain networks.</p>
+                                        A Hidden Semi-Markov Model Framework for Covariate-Dependent Sojourn Distributions in Dynamic Brain Network Analysis
+                                        <p>The study of functional brain networks increasingly emphasizes how connectivity patterns evolve over time. While hidden Markov models (HMMs) have become a popular tool for modeling dynamic functional connectivity (FC), their assumption of geometrically distributed sojourn times (consecutive time spent in a state) forces unrealistically frequent state switching. Hidden semi-Markov models (HSMMs) address this limitation by explicitly modeling the sojourn distribution, enabling more accurate characterization of the duration spent in each network state. I develop an HSMM framework for inferring dynamic brain network states from functional MRI data and estimating subject-specific state sequences, dwell times, and associated connectivity patterns. Building on this foundation, I introduce an extension in which the sojourn distribution is modeled as a function of covariates. This covariate-dependent formulation allows state dwell times to vary systematically with demographic, clinical, or behavioral factors, providing a direct mechanism for comparing temporal dynamics across patient populations. I illustrate the utility of this approach using fMRI data from older adults with obesity, demonstrating how covariate effects on sojourn behavior can reveal meaningful differences in network stability and flexibility. This framework opens new avenues for studying how individual characteristics shape the temporal organization of functional brain networks.</p>
                                     </div>
                                     <div class="talk">
                                         <strong>Joshua Lukemire</strong> <small>(Emory University)</small><br>
@@ -1098,7 +1140,28 @@
                                 <strong>Track B · S7</strong><br>
                                 Advanced Statistical and Machine Learning based methods for Spatial imaging and omics<br>
                                 <small>Organizer: Satwik Acharyya · Chair: Andrew Whiteman</small>
-                                <p class="talks-tbd"><em>Talk details to be announced</em></p>
+                                <div class="talk-details">
+                                    <div class="talk">
+                                        <strong>Satwik Acharyya</strong> <small>(University of Alabama at Birmingham)</small><br>
+                                        Network models for Spatial omics data
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Ronglai Shen</strong> <small>(Memorial Sloan Kettering Cancer Center)</small><br>
+                                        Spatial Immunophenotyping from Whole-Slide Multiplexed Tissue Imaging using Convolutional Neural Networks
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Michele Peruzzi</strong> <small>(University of Michigan)</small><br>
+                                        Integrated Geospatial Network models for Spatial Omics
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Veera Baladandayuthapani</strong> <small>(University of Michigan)</small><br>
+                                        Bayesian Statistical Models for Spatial Imaging in Cancer
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                </div>
                             </div>
                             <hr>
                             <div class="session-item">
@@ -1150,7 +1213,7 @@
                                     </div>
                                     <div class="talk">
                                         <strong>Qiong Wu</strong> <small>(University of Pittsburgh)</small><br>
-                                        Distributed Covariance Graph–Guided ComBat (dG-ComBat): A Privacy-Preserving Framework for Harmonizing Multi-Site Neuroimaging Data
+                                        Distributed Covariance Graph-Guided ComBat (dG-ComBat): A Privacy-Preserving Framework for Harmonizing Multi-Site Neuroimaging Data
                                         <p>Multi-site neuroimaging studies enhance statistical power and generalizability but face challenges from data privacy constraints where direct data sharing is prohibited. In addition, neuroimaging data across multiple institutions often exhibit systematic heterogeneity driven by scanner differences, which could bias downstream analyses if not addressed. We propose distributed covariance graph-guided ComBat (dG-ComBat), a multivariate harmonization framework that operates in a fully privacy-preserving distributed setting. dG-ComBat identifies and leverages the latent covariance graph structure among neuroimaging features to guide mitigation of both mean and covariance batch effects. With only two rounds of summary-statistics exchange, dG-ComBat achieves identifical harmonization performance (i.e., lossless) to centralized setting in which data from all participating institutions are shared. Extensive simulations and applications to amyloid-β and tau PET data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) showed that dG-ComBat effectively reduces scanner-related variability while preserving biologically relevant diagnostic signals, and improving downstream analyses. The method provides a scalable, summary-statistics-based approach for harmonizing multi-institutional neuroimaging data when individual-level data sharing is infeasible.</p>
                                     </div>
                                     <div class="talk">
@@ -1222,14 +1285,56 @@
                                 <strong>Track A · S12</strong><br>
                                 Methods for Statistical Imaging Data with Applications to Physical Sciences<br>
                                 <small>Organizer: Yang Chen · Chair: Yang Chen</small>
-                                <p class="talks-tbd"><em>Talk details to be announced</em></p>
+                                <div class="talk-details">
+                                    <div class="talk">
+                                        <strong>David van Dyk</strong> <small>(Imperial College London)</small><br>
+                                        Identification of high-energy astrophysical point sources via hierarchical Bayesian nonparametric clustering
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Hengrui Luo</strong> <small>(Rice University)</small><br>
+                                        Bayesian Partition-Based Scalar-on-Image Regression with Group Spike-and-Slab Priors
+                                        <p>We propose BPSiR-GSS: Bayesian Partition-based Scalar-on-Image Regression with Group Spike-and-Slab priors, a novel framework for regression models with image predictors designed to adaptively identify spatially contiguous regions associated with clinical outcomes. Unlike existing approaches that rely on an external fixed partition or a chosen atlas, our approach recursively partitions the spatial domain itself, producing an interpretable representation of region-specific effects. We employ a discrete group spike-and-slab prior on the partition nodes, which enables multi-level sparsity and region-level voxel selection. Theoretical considerations align the model with emerging posterior contraction results for discrete spike-and-slab priors in spatial settings. For posterior inference, we develop a trans-dimensional MCMC algorithm that employs a marginalization over the regression coefficients, resulting in an efficient updating scheme over partitions and sparsity patterns. Extensive simulation studies demonstrate that BPSiR-GSS achieves superior prediction accuracy and variable selection performance compared to state-of-the-art spatial Gaussian processes and low-rank tensor regression models. We apply the method to structural MRI data to predict brain age, successfully identifying localized patterns of neural degeneration that provide clean, interpretable maps of aging-related regions of interest. This is a joint work with Marina Vannucci at Rice University and Suprateek Kundu at M.D. Anderson Cancer Center.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Jeffrey Regier</strong> <small>(University of Michigan)</small><br>
+                                        TBD
+                                        <p class="talks-tbd"><em>Details to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Arya Farahi</strong> <small>(UT Austin)</small><br>
+                                        TBD
+                                        <p class="talks-tbd"><em>Details to be announced</em></p>
+                                    </div>
+                                </div>
                             </div>
                             <hr>
                             <div class="session-item">
                                 <strong>Track B · S13</strong><br>
                                 From Connections to Understanding: Brain Network Models in Neuroscience<br>
                                 <small>Organizer: Heather Shappell · Chair: Heather Shappell</small>
-                                <p class="talks-tbd"><em>Talk details to be announced</em></p>
+                                <div class="talk-details">
+                                    <div class="talk">
+                                        <strong>Yi Zhao</strong> <small>(Indiana University School of Medicine)</small><br>
+                                        Estimation of Heterogeneous Causal Mediation Effects
+                                        <p>Mediation analysis is widely used to elucidate the mechanisms through which an exposure influences an outcome of interest. However, standard causal mediation methods may yield inconsistent conclusions, potentially due to unmodeled heterogeneity in mediation effects across individuals. To address this challenge, we propose a new framework that incorporates covariate-treatment and mediator-treatment interactions within a linear structural equation modeling system. Causal assumptions are discussed and heterogeneous natural direct and indirect effects are parameterized as functions of patient characteristics. A modified covariate approach is introduced to relax hierarchical constraints in models with interactions, and generalized lasso regularization is employed to achieve parsimony in high-dimensional settings. We establish asymptotic properties of the proposed estimators and demonstrate their finite-sample performance through extensive simulation studies. Application to data from the Alzheimer's Disease Neuroimaging Initiative reveals substantial heterogeneity in the mediation effect of cerebrospinal fluid volume change on the association between APOE-ε4 carrier status and cognitive decline, identifying a subgroup of individuals who may be particularly susceptible to cognitive impairment through this disease pathway.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Yize Zhao</strong> <small>(Yale School of Public Health)</small><br>
+                                        Bayesian graph-informed modeling for Tau-connectivity interaction
+                                        <p>Converging evidence indicates a complex interaction between Tau-protein propagation and alterations in brain connectivity. Aimed at characterizing Tau protein spread along functional networks in the early course of Alzheimer's disease, we develop a Bayesian graphical model to jointly model tau propagation, functional connectivity structure, and subgroup heterogeneity using cross-sectional data. By integrating graph-constrained infection dynamics with connectivity patterns, the model infers plausible propagation pathways and subgroup-specific infection sequences. We show interesting results on heterogeneous Tau accumulation patterns by applying the method to the A4 study, with the findings further extended to the ADNI study.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Mohsen Bahrami</strong> <small>(Wake Forest University School of Medicine)</small><br>
+                                        Brain Networks: Multivariate Statistical Tools to Study Structure, Function, and Dynamics
+                                        <p>The availability of large-scale neuroimaging datasets and powerful computational resources has created an unprecedented opportunity to explore the structure, function, and dynamics of the brain as what it truly is—a complex system. However, conventional statistical models have inherent limitations that restrict the ability of clinicians and scientists to fully leverage the wealth of information contained in the neuroimaging data. To address these challenges, we have developed novel multivariate modeling frameworks and accompanying software tools, built on mixed-effects regression backbones, that enable relating phenotypic characteristics (e.g., age, disease phenotype, etc.) to whole-brain networks and specific subnetworks such as the default mode network (DMN) and drawing principled statistical inference. These modeling tools overcome critical limitations of existing methods and have successfully been applied across a range of studies examining the effects of various phenotypes including aging, weight loss, alcohol drinking, pesticide exposure, HIV and Marijuana use, and cerebral microbleeds on brain networks.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Noah Gade</strong> <small>(Wake Forest University)</small><br>
+                                        Segmentation in Dynamic Neuroimaging via Random Featurizations
+                                        <p>The integration of statistical network analysis with neuroimaging has catalyzed a paradigm shift in our understanding of brain function. Inferring these directed interactions, however, is particularly challenging when functional connections are not static, but nonstationary. This talk bridges dynamic network analysis for neuroimaging with temporal segmentation. We introduce a flexible and adaptive random featurization framework to discern abrupt and gradual structural changes in the connectivity network, avoiding the traditional computational burden of deep learning methods. Post-segmentation, network inference is simplified, allowing for recovery of directed information flow within each quasi-stable regime.</p>
+                                    </div>
+                                </div>
                             </div>
                             <hr>
                             <div class="session-item">
@@ -1240,9 +1345,23 @@
                                     <div class="talk">
                                         <strong>Aiying Zhang</strong> <small>(University of Virginia)</small><br>
                                         ConnectMVR: A Supervised Brain Connectivity Analysis Framework for Predicting Behavioral Outcomes
-                                        <p>Brain connectivity—the complex network of neural pathways enabling communication among brain regions—provides a powerful framework for understanding individual differences in cognition, emotion, and behavior. This project introduces ConnectMVR, a penalized multivariate matrix-variate regression framework designed for supervised brain connectivity analysis and multimodal neuroimaging integration. ConnectMVR identifies statistically reliable brain–behavior associations across multiple connectivity matrices at both the regional and connection levels, while accounting for the high dimensionality and structured dependencies inherent in connectome data. Using data from the Human Connectome Project in Development (HCP-D), we will apply ConnectMVR to integrate intrinsic functional connectivity from resting-state fMRI and structural connectivity from diffusion MRI, linking these&hellip;</p>
+                                        <p>Brain connectivity—the complex network of neural pathways enabling communication among brain regions—provides a powerful framework for understanding individual differences in cognition, emotion, and behavior. This project introduces ConnectMVR, a penalized multivariate matrix-variate regression framework designed for supervised brain connectivity analysis and multimodal neuroimaging integration. ConnectMVR identifies statistically reliable brain-behavior associations across multiple connectivity matrices at both the regional and connection levels, while accounting for the high dimensionality and structured dependencies inherent in connectome data. Using data from the Human Connectome Project in Development (HCP-D), we will apply ConnectMVR to integrate intrinsic functional connectivity from resting-state fMRI and structural connectivity from diffusion MRI, linking these measures to behavioral assessments. This framework offers a rigorous, interpretable, and generalizable approach for uncovering multiscale connectivity patterns underlying behavioral variability in youth.</p>
                                     </div>
-                                    <p class="talks-tbd"><em>Additional talks to be announced</em></p>
+                                    <div class="talk">
+                                        <strong>Shuo Chen</strong> <small>(University of Maryland Baltimore)</small><br>
+                                        Systematic Prediction Bias in ML/AI Regression and Biological Aging Clocks
+                                        <p>Aging clocks aim to estimate an individual's underlying physiological and molecular age, distinct from chronological age. Because biological age cannot be measured directly, aging clocks are computed indices derived from high-throughput multi-omics and imaging data using techniques such as machine learning (ML) and artificial intelligence (AI). Aging clocks derived from standard ML/AI regression models are known to exhibit systematic prediction bias that shrinks predicted values toward the mean, leading to underestimation in older participants and overestimation in younger participants. Here, we elaborate on the potential causes of this bias inherited from ML/AI regression models and emphasize that it can compromise downstream analyses, for example, by inducing biased association estimates between accelerated aging clocks and risk factors. We further present ML regression strategies that automatically remove systematic bias during the model training stage and ensure unbiased inference in downstream analyses.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Yuan Wang</strong> <small>(University of South Carolina)</small><br>
+                                        Topological Inference and Clustering of Functional Brain Networks
+                                        <p>Modeling individual variability in brain functions is essential for understanding neurological disorders such as post-stroke aphasia. We propose a unified topological framework to characterize this heterogeneity and its impact on both behavioral deficits and treatment response. Our approach begins with a novel method for lesion-symptom mapping (LSM) that leverages persistent homology to capture higher-order topological features in functional brain networks. By moving beyond region-wise or edge-level comparisons, this method identifies mesoscale structures—such as cycles—that reflect distributed lesion effects. Statistical inference is performed via heat kernel representation of persistence diagrams and a permutation-based testing procedure. We also extend this framework to investigate treatment response by introducing a topological clustering method based on heat-kernel representation of persistence diagrams, enabling integration of Euclidean covariates and automated selection of the number of clusters. Together, these methods provide a cohesive topological perspective on brain-behavior relationships, offering multiscale, data-driven tools for analyzing functional brain networks in neuroimaging studies.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Ruiwen Zhou</strong> <small>(Washington University in St. Louis)</small><br>
+                                        A Temporal Graph Neural Network for Time-to-Alzheimer's Disease Prediction Using Longitudinal Neuroimaging Data
+                                        <p>Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterized by gradual structural brain changes that precede clinical symptoms. The Alzheimer's Disease Neuroimaging Initiative (ADNI) provides longitudinal structural MRI (sMRI) data—cortical thickness, surface area, and volumetric measures across brain regions—that serve as important biomarkers for tracking early AD progression. However, predicting time-to-AD conversion from these data is challenging due to inter-subject variability, complex spatial dependencies among brain regions, and temporal heterogeneity across visits. Traditional and deep learning classifiers often overlook censoring and fail to jointly model spatiotemporal patterns of neurodegeneration. We propose a temporal graph neural network (GNN) framework for time-to-Alzheimer's prediction that integrates anatomical structure with longitudinal trajectories. Our approach combines landmark analysis to handle censoring with a GNN that encodes structural relationships among brain regions, along with LSTM/Transformer-based temporal modules that capture both local dynamics and long-range progression. These hybrid architectures jointly model spatial organization and evolving sMRI patterns, producing individualized and clinically meaningful time-to-event risk predictions. The proposed framework offers a flexible and powerful tool for early detection of AD and may improve the identification of high-risk individuals in longitudinal neuroimaging studies.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1254,7 +1373,14 @@
                                 <strong>Track A · S15</strong><br>
                                 From Pixels to Physics: Statistical Methods for Astronomical Images<br>
                                 <small>Organizer: Jeffrey Regier · Chair: Jeffrey Regier</small>
-                                <p class="talks-tbd"><em>Talk details to be announced</em></p>
+                                <div class="talk-details">
+                                    <div class="talk">
+                                        <strong>Kevin McKinnon</strong> <small>(University of Toronto)</small><br>
+                                        Measuring precise motions of the faintest stars by combining Hubble, James Webb, and Gaia
+                                        <p>The Gaia satellite has provided first-ever positions and motions for billions of stars over the last decade. However, observing constraints mean that Gaia's measurements get worse for faint stars and truncate past a certain brightness. These faint stars are particularly interesting for many open astrophysical questions, such as the nature of dark matter and the precise formation history of the Milky Way. Using my BP3M tool (Bayesian Positions, Parallaxes, and Proper Motions), I am able to combine Hubble images w&hellip;</p>
+                                    </div>
+                                    <p class="talks-tbd"><em>Additional talks to be announced</em></p>
+                                </div>
                             </div>
                             <hr>
                             <div class="session-item">
@@ -1284,7 +1410,28 @@
                                 <strong>Track C · S17</strong><br>
                                 Achieving Reliable Inference and Prediction from Noisy Imaging Data through Structure Learning<br>
                                 <small>Organizer: Shuo Chen · Chair: Sharmistha Guha</small>
-                                <p class="talks-tbd"><em>Talk details to be announced</em></p>
+                                <div class="talk-details">
+                                    <div class="talk">
+                                        <strong>Fangyi Wang</strong> <small>(Ohio State University)</small><br>
+                                        Joint Registration and Conformal Prediction for Partially Observed Functional Data
+                                        <p>Predicting missing segments in partially observed functions is challenging due to infinite-dimensionality, complex dependence within and across observations, and irregular noise. These challenges are further exacerbated by the existence of two distinct sources of variation in functional data, termed amplitude (variation along the y-axis) and phase (variation along the x-axis). While registration can disentangle them from complete functional data, the process is more difficult for partial observations. Thus, existing methods for functional data prediction often treat phase variation as negligible. Furthermore, they typically require precise model specifications and/or rely on computationally intensive tools, such as bootstrapping, to construct prediction intervals. We propose a unified registration and prediction approach for partially observed functions using conformal prediction. Our method integrates registration and prediction in one algorithm while ensuring exchangeability through carefully constructed predictor-response pairs. Using a neighborhood smoothing algorithm, the framework produces pointwise prediction bands with finite-sample marginal coverage guarantees under weak assumptions. The method is easy to implement, computationally efficient, and permits simple parallelization. Numerical studies and real-world data examples demonstrate the effectiveness and practical utility of our method.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Megan Jones</strong> <small>(Vanderbilt University)</small><br>
+                                        Estimation of Maximum Achievable Predictive Accuracy for Machine Learning Brain-Phenotype Associations
+                                        <p>Machine learning is used in neuroscience to examine brain-phenotype associations and facilitate individual prediction from high-dimensional brain imaging. For continuous phenotypes, Pearson's correlation between the observed and predicted phenotype is used to quantify model accuracy in testing data. However, recent research suggests millions of samples may be needed to reliably estimate the maximum achievable predictive accuracy (MAPA). We formally define the MAPA and show that Pearson's estimator is biased for this quantity and its confidence intervals fail to capture the target. We develop a semiparametric (double machine learning) one-step estimator that more accurately estimates the MAPA and yields valid confidence intervals across flexible machine learning settings. Analyzing data from the Reproducible Brain Charts dataset, we show that this estimator has smaller bias when estimating brain-phenotype associations of neuroimaging data with age and psychopathology phenotypes. We further extend by improving the estimation of area under the curve (AUC) for MAPA for binary phenotypes.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Yezhi Pan</strong> <small>(University of Maryland)</small><br>
+                                        Network-Guided Multivariate Regression for High-dimensional Imaging Outcomes
+                                        <p>Mass-univariate analysis remains the workhorse of brain-wide association studies, where tens of thousands of imaging-derived phenotypes are modeled independently. Yet neuroimaging outcomes demonstrate strong, structured correlation patterns driven by latent brain network organization, and ignoring this dependence structure reduces statistical efficiency and limits replicability. We present a network-guided multivariate regression framework that integrates covariance network structure into multivariate regression analysis to explicitly account for inter-correlations among neuroimaging measures. This approach provides an alternative to conventional mass-univariate modeling with dependence adjustment, analogous to the role of mixed-effects models for repeated measures in lower-dimensional settings. Through extensive simulations and an application to imaging-derived phenotypes from the ABCD study, we show that network-guided modeling substantially improves inferential accuracy and cross-study replicability.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Shuo Chen</strong> <small>(University of Maryland)</small><br>
+                                        Discussion
+                                        <p class="talks-tbd"><em>Discussant</em></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1307,14 +1454,56 @@
                                 <strong>Track A · S18</strong><br>
                                 Recent Advances in Complex Modeling of Brain Imaging and Networks<br>
                                 <small>Organizer: Xi Luo · Chair: Jian Kang</small>
-                                <p class="talks-tbd"><em>Talk details to be announced</em></p>
+                                <div class="talk-details">
+                                    <div class="talk">
+                                        <strong>Marina Vannucci</strong> <small>(Rice University)</small><br>
+                                        Bayesian Brain Network Mediation Analysis of Longitudinal Alzheimer's Disease Data
+                                        <p>Causal mediation analysis provides critical insights into how exposures influence outcomes through intermediate variables, or mediators. In this study, we examine mediation effects of complex-structured data represented as whole-brain connectivity networks derived from resting state fMRI (rs-fMRI) data on Alzheimer's Disease (AD) subjects and healthy controls. Our modeling approach incorporates low-dimensional latent scales representations of the high-dimensional connectivity matrices, while preserving node-level characteristics and facilitating the identification of key mediating brain regions. It also accommodates flexible non-linear relationships between the mediators and the outcomes of interest. Using data from the Alzheimer's Disease Neuroimaging Initiative (ADNI-1), we perform cross-sectional and longitudinal analyses to investigate the effects of several factors known to affect cognitive decline. Results confirm the important role of amyloid-beta as a risk factor for cognitive impairment. They also confirm the key mediation role played by the default mode network, reinforcing its central role in AD. The longitudinal analysis additionally identifies a distinct subset of brain network nodes, beyond those found in the cross-sectional analysis, that uniquely drive baseline and/or time-varying indirect causal effects, particularly in the visual network.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Suprateek Kundu</strong> <small>(The University of Texas MD Anderson Cancer Center)</small><br>
+                                        Bayesian Semi-parametric Tensor-on-Tensor Regression for Forecasting Alzheimer's Disease Progression
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Yu-Ping Wang</strong> <small>(Tulane University)</small><br>
+                                        Nonlinear mixed models for brain network analysis based on Multi-Paradigm fMRIs
+                                        <p>Functional magnetic resonance imaging (fMRI) data are inherently complex, characterized by high dimensionality, intricate inter-regional dependencies, and substantial individual variability across experimental paradigms. Traditional linear mixed models (LMMs) often fail to adequately capture nonlinear relationships inherent in neuroimaging data. To address these limitations, we introduce nonlinear mixed model (NMM), an extension of the LMM framework that integrates neural networks to flexibly model complex fixed-effect relationships while preserving the random effects structure to account for individual differences. We applied the NMM to Philadelphia Neurodevelopmental Cohort (PNC) across emotion, n-back, and resting-state paradigms, which achieved superior model fit relative to classical LMMs. This framework offers a statistically rigorous and practically explainable approach for modeling large-scale functional connectivity from modest covariates while explicitly separating population-level effects from stable individual variability in functional brain organization.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Panpan Zhang</strong> <small>(Vanderbilt University Medical Center)</small><br>
+                                        Group-Structured Sparse Precision Estimation for Interpretable Functional Brain Networks
+                                        <p>Functional brain networks estimated from fMRI data are increasingly used in cognitive analyses. However, most statistical methods impose sparsity at the level of individual connections. We propose a group-structured sparse precision matrix framework for estimating functional connectivity that aligns statistical regularization with scientifically meaningful network organization. The proposed approach performs model selection over groups of connections, yielding interpretable network estimates. The framework is formulated through a general penalized-likelihood approach that accommodates multilevel group structures and unifies several existing sparse precision estimators as special cases. We investigate identifiability conditions, scalable optimization algorithms for high-dimensional settings, and stability tools for assessing the reliability of selected network groups. Simulation studies demonstrate improved recovery and stability of group-level structure relative to existing competing methods. An application to the Tennessee Alzheimer's Project shows how group-structured sparsity produces brain networks that are more interpretable and more directly related to cognitive outcomes. All reproducible simulation code and user-friendly utility functions are provided in an open-source R package.</p>
+                                    </div>
+                                </div>
                             </div>
                             <hr>
                             <div class="session-item">
                                 <strong>Track B · S19</strong><br>
-                                Next‑Generation Statistical and Inferential Methods for Neuroimaging and Multimodal Data Integration<br>
+                                Next-Generation Statistical and Inferential Methods for Neuroimaging and Multimodal Data Integration<br>
                                 <small>Organizer: Haochang Shou · Chair: Haochang Shou</small>
-                                <p class="talks-tbd"><em>Talk details to be announced</em></p>
+                                <div class="talk-details">
+                                    <div class="talk">
+                                        <strong>Bingxin Zhao</strong> <small>(Department of Statistics and Data Science, University of Pennsylvania)</small><br>
+                                        Agentic AI in imaging genetics
+                                        <p>AI agents can serve as virtual research collaborators in imaging genetics, accelerating discovery and translation by orchestrating complex, end-to-end workflows that span genomic data processing, imaging phenotype engineering, association and prediction modeling, replication, and interpretation. Realizing this potential requires robust domain-specific datasets, standardized pipelines, and scalable computational infrastructure, as well as interdisciplinary collaboration to establish community standards that ensure transparency, reproducibility, and responsible deployment. In this talk, we will present an agentic framework for imaging genetics, highlight practical use cases in complex disease and aging-related brain phenotypes, and discuss how human-in-the-loop, source-traceable evidence synthesis can improve real-world utility of data resources and AI tools.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Jeffery Morris</strong> <small>(Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania)</small><br>
+                                        Scalable distributional regression
+                                        <p>Many modern instruments, such as wearables, imaging devices, and geospatial sensors, produce rich subject-level data streams containing thousands to millions of measurements. Reducing these data to simple summaries (e.g., means) can obscure meaningful structure. We introduce a general distributional regression framework for distribution-on-scalar or distribution-on-function regression, enabling characterization of how subject-specific distributions vary across conditions and covariates. Our modeling strategy applies a series of transformations to each subject's empirical distribution function, producing a compact, low-dimensional embedding that is near-lossless under the quantile-domain Wasserstein metric. These embeddings preserve essential distributional information, accommodate measurement discreteness arising from instrument precision, satisfy Gaussian assumptions required for regression in the embedding space, and maintain monotonicity in the quantile domain. We further describe efforts to construct generative models that produce valid subject-level distributions reflecting the salient structure of the underlying population and examine the statistical properties of inference derived from these models, and discuss inferential strategies.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Quy Cao</strong> <small>(Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania)</small><br>
+                                        Spatial Bootstrap for Voxel-Wise Neuroimaging Analysis
+                                        <p>Imaging data are often summarized by a single value per region of interest, a practice that can reduce statistical power and obscure important spatial heterogeneity. Voxel-wise analyses better capture the complexity of imaging data, but accurate estimation of standard errors in this setting is challenging due to spatial correlation among voxels. We propose a spatial bootstrap framework for voxel-level inference that accounts for spatial dependence while preserving statistical power. The method is demonstrated through an application examining the association between Quantitative Susceptibility Mapping and Myelin Water Fraction, illustrating its ability to provide reliable standard error estimates and robust statistical inference.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Noah Hillman</strong> <small>(Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania)</small><br>
+                                        Testing for Network Specificity in Brain-Behavior Associations Using Ordinal Dominance Curves
+                                        <p>Interpreting brain-behavior relationships through the lens of anatomical parcellations or functional networks is commonplace in human brain mapping. However, statistical approaches for testing whether brain-behavior associations are stronger (i.e., enriched) within a region of interest remain underdeveloped. Here, we propose a permutation-based approach for network enrichment testing using ordinal dominance curves (NETDOM). In simulation studies, we demonstrate that NETDOM properly controls the type I error rate—unlike other prominent methods—while exhibiting increased statistical power when brain-behavior associations are elevated in a subset of in-network locations. Using data from two large-scale neurodevelopmental cohorts, we illustrate that NETDOM effectively detects enriched associations between structural and functional brain measures and neurocognitive performance.</p>
+                                    </div>
+                                </div>
                             </div>
                             <hr>
                             <div class="session-item">
@@ -1360,14 +1549,51 @@
                                 <strong>Track B · S22</strong><br>
                                 Statistical Network Analysis for Neuroimaging<br>
                                 <small>Organizer: Dan Kessler · Chair: Dan Kessler</small>
-                                <p class="talks-tbd"><em>Talk details to be announced</em></p>
+                                <div class="talk-details">
+                                    <div class="talk">
+                                        <strong>Liza Levina</strong> <small>(University of Michigan; Department of Statistics)</small><br>
+                                        Comparing groups of networks
+                                        <p>Work on multiple networks has typically focused on estimating their shared structure. Two-sample tests for networks have also been developed, testing the hypothesis of two samples of networks coming from the same distribution. However, scientifically relevant hypotheses rarely take this form: for example, in neuroimaging, a common application for multiple network analysis where each network represents a patient's brain connectome, it is rarely of interest to compare whole brains of patients and healthy controls; more often, the focus is on a particular brain region. Beyond comparisons, it is also of interest to estimate structures that are specific to a disease, or to some other trait in patients. One could always do that using just the patients with that trait, but using all available samples allows us to better estimate structures that are shared by all, which in turn helps separate out the structure associated with a trait. This talk will introduce two methods that help address these challenges: mesoscale testing on networks, which allows for formal hypothesis testing on a subset of edges (like a brain region) which leverages the rest of the network to increase power; and group MultiNeSS, a method that takes a sample of networks and estimates structures that are shared by all, specific to groups corresponding to a trait, or just unique to an individual. In both cases, we leverage the assumption of low-rank expectation of adjacency matrices which has been observed widely in practice. Based on joint work with Peter MacDonald, Alexander Kagan, and Ji Zhu.</p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Jaroslaw Harezlak</strong> <small>(Indiana University; School of Public Health)</small><br>
+                                        Spectral Biclustering of DTI Data with an Application to Sport-Related Concussion
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Keith Levin</strong> <small>(University of Wisconsin–Madison; Department of Statistics)</small><br>
+                                        Estimating Multiple Weighted Networks with Node-Sparse Differences and Shared Low-Rank Structure
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Braden Scherting</strong> <small>(Duke University; Department of Statistical Science)</small><br>
+                                        Poisson Multiplex ANOVA Models with Applications to Brain Networks
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                </div>
                             </div>
                             <hr>
                             <div class="session-item">
                                 <strong>Track C · S23</strong><br>
                                 Recent developments on neuroimage analyses for use in digital twins<br>
                                 <small>Organizer: Ansu Chatterjee · Chair: Emily Hector</small>
-                                <p class="talks-tbd"><em>Talk details to be announced</em></p>
+                                <div class="talk-details">
+                                    <div class="talk">
+                                        <strong>Siddhartha Nandy</strong> <small>(University of Maryland Baltimore County)</small><br>
+                                        Covariate assisted dimension reduction in neuroimages
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Ansu Chatterjee</strong> <small>(University of Maryland Baltimore County)</small><br>
+                                        Rapid change detection in streaming neuroimage data
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                    <div class="talk">
+                                        <strong>Sanjay Chaudhuri</strong> <small>(University of Nebraska Lincoln)</small><br>
+                                        Empirical Bayesian analysis on fMRI data from multiple scans and subjects
+                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1400,7 +1626,7 @@
                                     <div class="talk">
                                         <strong>Tinging Zhang</strong> <small>(University of Pittsburgh)</small><br>
                                         Comparison of Estimated Age-Related Changes in Structural Networks Across Large Neuroimaging Studies
-                                        <p>Age-related changes in brain structural networks reflect ongoing remodeling of white matter pathways across the lifespan. However, empirical findings on age-related changes in structural networks are often inconsistent across studies, likely due to methodological heterogeneity in diffusion MRI preprocessing, tractography, and network construction. In this study, we assess the reproducibility of estimated age-related changes in structural connectivity (SC) across large neuroimaging cohorts and analytic choices. Using diffusion MRI data from five major datasets, including the Human Connectome Project Young Adults (HCP-YA), Lifespan Human Connectome Project in Development (HCP-D), Lifespan Human Connectome Project in Aging (HCP-A), UK Biobank, and the Philadelphia Neurodevelopmental Cohort (PNC), we examine how preprocessing pipelines, tractography algorithms, and brain parcellation schemes influence estimates of lifespan SC changes, we systematically vary preprocessing pipelines, tractography algorithms, and brain parcellation schemes to construct structural connectomes. Our results highlight the substantial impact of methodological choices on estimated age-related changes in SC and provide guidance for improving the robustness and interpretability of SC analyses.</p>
+                                        <p>Age-related changes in brain structural networks reflect ongoing remodeling of white matter pathways across the lifespan. However, empirical findings on age-related changes in structural networks are often inconsistent across studies, likely due to methodological heterogeneity in diffusion MRI preprocessing, tractography, and network construction. In this study, we assess the reproducibility of estimated age-related changes in structural connectivity (SC) across large neuroimaging cohorts and analytic choices. Using diffusion MRI data from five major datasets, including the Human Connectome Project Young Adults (HCP-YA), Lifespan Human Connectome Project in Development (HCP-D), Lifespan Human Connectome Project in Aging (HCP-A), UK Biobank, and the Philadelphia Neurodevelopmental Cohort (PNC), we examine how preprocessing pipelines, tractography algorithms, and brain parcellation schemes influence estimates of lifespan SC changes. We systematically vary preprocessing pipelines, tractography algorithms, and brain parcellation schemes to construct structural connectomes. Our results highlight the substantial impact of methodological choices on estimated age-related changes in SC and provide guidance for improving the robustness and interpretability of SC analyses.</p>
                                     </div>
                                     <div class="talk">
                                         <strong>Russel T. Shinohara</strong> <small>(University of Pennsylvania)</small><br>
