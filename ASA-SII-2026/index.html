@@ -1636,7 +1636,10 @@
                                     <div class="talk">
                                         <strong>Suprateek Kundu</strong> <small>(The University of Texas MD Anderson Cancer Center)</small><br>
                                         Bayesian Semi-parametric Tensor-on-Tensor Regression for Forecasting Alzheimer's Disease Progression
-                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                        <p class="talks-tbd"><em>There is an increasing interest in tensor-on-tensor (TOT) modeling literature with a particular focus on image-on-image regression (IIR). However, key limitations exist, including restrictive linearity assumptions, the absence of local spatial context, and limited capacity to capture heterogeneity across samples. We propose a novel Bayesian TOT modeling framework to address these gaps designed for longitudinal IIR settings with a focus on image forecasting that is underdeveloped in literature. The TOT model integrates voxel- and subject-specific local varying coefficient (VC) terms, that capture non-linear heterogeneous longitudinal patterns and is modeled using Gaussian processes (GP), with low-rank global tensor coefficients encoding spatial information. To further capture local spatial dependencies, we incorporate a patch-to-voxel mapping, enabling each output voxel to depend on its spatial neighborhood in the input image. 
+											<br>We develop an efficient Markov chain Monte Carlo (MCMC) algorithm that exploits the low-rank tensor structure and an embarrassingly parallel update scheme for voxel-specific GP components, enabling scalable inference for high-dimensional images with tens of thousands of voxels. Extensive simulations demonstrate substantial gains over existing methods in terms of image prediction accuracy, while also exhibiting computational scalability and MCMC convergence.
+											<br>Applied to longitudinal T1-weighted MRI data from the Alzheimer’s Disease Neuroimaging Initiative, the proposed approach accurately forecasts future cortical thickness changes based on imaging data from past visits. The resulting forecasted images enable downstream estimation of accelerated brain aging at future time horizons, providing a biologically meaningful marker of future disease progression that is estimated by accounting for concurrent neurodegenerative changes.
+										</em></p>
                                     </div>
                                     <div class="talk">
                                         <strong>Yu-Ping Wang</strong> <small>(Tulane University)</small><br>
@@ -1747,8 +1750,9 @@
                                     </div>
                                     <div class="talk">
                                         <strong>Jaroslaw Harezlak</strong> <small>(Indiana University; School of Public Health)</small><br>
-                                        Spectral Biclustering of DTI Data with an Application to Sport-Related Concussion
-                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                        Simultaneous Nuclear Norm and L_1 Regularization for Binary-outcome-on-Matrix Regression with Applications to Brain Imaging
+                                        <p class="talks-tbd"><em>We introduce a novel convex optimization framework for logistic scalar-on-matrix regression which incorporates nuclear and L_1 norm penalties to simultaneously enforce low-rank and sparse structures in the estimated coefficient matrix. Proposed method enables interpretable modeling of high-dimensional matrix-valued predictors in presence of binary responses. We derive a custom algorithm based on the Alternating Direction Method of Multipliers (ADMM) to efficiently solve the resulting convex optimization problem and establish the theoretical properties of the obtained solution. Numerical experiments demonstrate the effectiveness of our method in recovering meaningful predictive patterns. Finally, we apply our method to the brain imaging data to identify structures in functional brain connectivity matrices that are characteristic of subjects with a family history of alcohol use disorders (AUDs).
+										</em></p>
                                     </div>
                                     <div class="talk">
                                         <strong>Keith Levin</strong> <small>(University of Wisconsin–Madison; Department of Statistics)</small><br>
@@ -1783,9 +1787,11 @@
 										</em></p>
                                     </div>
                                     <div class="talk">
-                                        <strong>Sanjay Chaudhuri</strong> <small>(University of Nebraska Lincoln)</small><br>
-                                        Empirical Bayesian analysis on fMRI data from multiple scans and subjects
-                                        <p class="talks-tbd"><em>Abstract to be announced</em></p>
+                                        <strong>Sanjay Chaudhuri</strong> <small>(University of Nebraska, Lincoln)</small><br>
+                                        An empirical likelihood-based method for functional neuroimaging
+                                        <p class="talks-tbd"><em>
+											The empirical likelihood (EL) method has long been established as a powerful tool in many areas of statistics. This class of semi-parametric procedures enables parametric inference through constrained nonparametric estimation of underlying distribution functions. In this work, we present an EL-based framework for detecting task-related activation in functional magnetic resonance imaging (fMRI) data. The proposed method evaluates the significance of task-related covariates at each voxel within the standard regression framework for fMRI analysis.  The null distribution of the EL-based test statistic is estimated empirically using voxels outside the brain region, where no activation is expected. Active voxels are subsequently identified by comparing voxel-wise test statistics with this estimated null distribution, followed by false discovery rate control. The methodology is illustrated using real fMRI data involving visual stimuli consisting of famous faces, unfamiliar faces, and scrambled images. The resulting activation maps demonstrate that the proposed approach successfully identifies biologically meaningful brain regions associated with visual processing tasks.
+											</em></p>
                                     </div>
                                 </div>
                             </div>
